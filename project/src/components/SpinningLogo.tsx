@@ -2,13 +2,13 @@ import React from 'react';
 
 const SpinningLogo = () => {
   return (
-    <div className="animate-[float_4s_ease-in-out_infinite] relative w-24 h-24">
+    <div className="animate-[float_4s_ease-in-out_infinite] relative w-12 h-12">
       <div 
         className="w-full h-full overflow-hidden"
         style={{
           clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
-          boxShadow: '0 0 20px rgba(34, 211, 238, 0.5)',
-          border: '2px solid rgb(34, 211, 238)'
+          boxShadow: '0 0 20px rgba(231, 179, 85, 0.5)',
+          border: '2px solid #E7B355'
         }}
       >
         <img 
